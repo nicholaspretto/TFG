@@ -1,0 +1,3001 @@
+<?xml version="1.0"?>
+	<?mso-application progid="Excel.Sheet"?> 
+	<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" 
+	xmlns:x="urn:schemas-microsoft-com:office:excel" 
+	xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" 
+	xmlns:html="http://www.w3.org/TR/REC-html40"> 
+	<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"> 
+	<Version>12.00</Version> 
+	</DocumentProperties> 
+	<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"> 
+	<WindowHeight>8130</WindowHeight> 
+	<WindowWidth>15135</WindowWidth> 
+	<WindowTopX>120</WindowTopX> 
+	<WindowTopY>45</WindowTopY> 
+	<ProtectStructure>False</ProtectStructure> 
+	<ProtectWindows>False</ProtectWindows> 
+	</ExcelWorkbook> 
+	<Styles>
+		<Style ss:ID="xls-style-1" ss:Name="xls-style-1">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Center"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+			</Borders>
+			<Font ss:Color="#767676" />
+			<Interior ss:Color="#F4F4F4" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="xls-style-2" ss:Name="xls-style-2">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Left"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#EDEDED" ss:Pattern="Solid"/>
+			<NumberFormat ss:Format="Short Date"/>
+		</Style>
+		<Style ss:ID="xls-style-3" ss:Name="xls-style-3">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Center"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CACACA"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#EDEDED" ss:Pattern="Solid"/>
+		</Style>
+	</Styles>
+	<Worksheet ss:Name="Sheet1">
+		<Table>
+			<Column ss:Width="80"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Column ss:Width="150"/>
+			<Row></Row><Row>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Data</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Volume (hm³)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Volume (%)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Chuva (mm)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Vazão natural (m³/s)</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Vazão a jusante (m³/s)</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">31/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">303.148</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.79925</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">26.867</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">30/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">303.77293</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.86274</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.951</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">29/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">304.04493</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.89038</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">41.802</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.93</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">28/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">303.42201</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.82709</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">63.377</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.93</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">27/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">301.01779</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.58282</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">46.475</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">109.235</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.93</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">26/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">294.17565</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.88768</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.125</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.366</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.92</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">25/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">294.0236</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.87223</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.973</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.92</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">24/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">293.84492</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.85407</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.65</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.862</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.92</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">23/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">293.6425</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.83351</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">8.175</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">44.159</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.91</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">22/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">292.64052</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.73171</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">9.775</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">38.343</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.91</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">21/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">292.13036</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.67988</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">10.35</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.542</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.91</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">20/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">291.94172</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.66071</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.175</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.217</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.91</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">19/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">292.23366</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.69037</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.9</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">39.288</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.89</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">18/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">291.61671</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.62769</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.725</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.639</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.89</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">17/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">292.14891</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.68176</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.35</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">27.534</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.89</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">16/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">292.84937</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.75293</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.029</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">15/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">293.72225</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.84161</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.447</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.89</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">14/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">294.67142</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.93805</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.856</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.89</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">13/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">295.50907</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.02315</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.797</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">12/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">295.32758</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.00471</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.31</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">11/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">295.24898</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.99673</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.15</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.747</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">294.83552</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.95472</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">13.025</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">57.26</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">09/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">292.78098</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.74598</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.975</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">70.39</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">08/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">289.67652</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.43057</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.425</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">62.956</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">07/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">287.18941</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.17789</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">11.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">45.88</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">06/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">286.18606</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.07595</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.549</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.6</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">05/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">286.2396</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.08139</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.914</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.4</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">04/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">286.88954</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.14742</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">13.975</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">38.082</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.4</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">03/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">286.55915</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.11385</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.511</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.4</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">02/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">287.52824</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.21231</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.615</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.4</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">01/12/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">288.53613</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.31471</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.784</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.41</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">30/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">288.78612</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.34011</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.35</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">53.922</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.41</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">29/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">287.13522</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.17238</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">41.075</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">68.141</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.87</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">28/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">284.10822</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.86485</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.575</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.314</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.36</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">27/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">284.74653</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.9297</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.674</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.13</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">26/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">286.39015</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.09669</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.425</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">25/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">288.19863</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.28042</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.108</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">24/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">289.57153</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.41991</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.983</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">23/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">290.71981</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.53657</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.439</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">22/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">291.95971</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.66254</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.08</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.91</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">21/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">292.69306</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.73705</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">39.539</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.91</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">20/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">292.21724</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.68871</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">11.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">50.921</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">19/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">290.78288</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.54298</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.875</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">54.617</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">18/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">289.07233</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.36919</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">12.35</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">76.678</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.9</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">17/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">285.35374</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.99139</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">46.575</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">85.606</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.2</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">16/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">280.70539</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.51912</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">27.55</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.251</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.35</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">15/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">280.33277</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.48127</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.713</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.36</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">14/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">281.68686</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.61884</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.303</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.37</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">13/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">283.27859</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.78056</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.944</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.37</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">12/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">284.78471</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.93358</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">11.3</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.304</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.38</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">11/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">286.33999</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.09159</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.825</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.082</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.39</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">287.73981</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.23381</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.834</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.39</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">09/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">288.20331</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.2809</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">43.318</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.39</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">08/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">287.57079</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.21664</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.15</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">45.905</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.4</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">07/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">286.46143</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.10393</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">43.562</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.4</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">06/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">285.74295</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.03093</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">8.3</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.267</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.4</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">05/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">286.43209</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.10095</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.599</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.4</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">04/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">287.51193</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.21066</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.644</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.81</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">03/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">289.02883</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.36477</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.641</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.99</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">02/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">290.46886</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.51107</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.451</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">01/11/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">292.13788</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.68064</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.673</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.32</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">31/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">293.2245</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.79104</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.97</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.42</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">30/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">294.76866</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.94793</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.225</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.42</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">29/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">296.00949</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.07399</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.668</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.43</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">28/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">297.24612</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.19963</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.758</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.43</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">27/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">298.37566</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.31439</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.768</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.43</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">26/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">298.28023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.30469</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">43.15</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">68.644</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.41</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">25/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">295.25316</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.99715</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.175</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.93</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.41</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">24/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">295.87694</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.06052</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.875</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.831</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.41</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">23/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">296.77491</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.15176</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.168</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.42</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">22/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">297.91681</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.26777</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.257</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.43</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">21/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">298.62446</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.33967</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.679</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.43</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">20/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">299.87007</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.46622</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">8.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">50.794</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.53</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">19/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">298.44721</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.32166</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">8.15</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">27.747</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.92</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">18/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">299.13692</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.39173</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.325</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">56.473</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.92</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">17/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">297.01796</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.17645</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.94</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.91</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">16/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">298.33085</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.30984</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">11.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">40.085</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.9</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">15/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">297.85432</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.26142</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.175</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.28</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">14/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">298.18893</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.29542</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.075</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">41.484</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">6.14</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">13/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">297.87661</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.26369</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.475</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.448</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">6.14</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">12/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">299.15491</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.39356</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.675</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">27.089</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">6.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">11/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">299.92131</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.47142</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.225</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.97</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">6.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">300.79035</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.55972</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">13.437</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">6.08</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">09/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">302.76027</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.75986</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">12.809</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">6.1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">08/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">304.9312</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.98042</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.007</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">6.11</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">07/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">306.73997</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.16419</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.373</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">6.06</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">06/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">308.47326</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.34029</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.67</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">6.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">05/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">310.01649</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.49708</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.907</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">6.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">04/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">311.38843</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.63646</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">7.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.07</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">6.09</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">03/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">311.43072</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.64076</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">11.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.328</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">6.1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">02/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">313.28617</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.82927</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.537</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.74</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">01/10/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">316.00794</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.1058</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">27.035</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.7</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">30/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">316.99099</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.20567</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">10.726</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.73</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">29/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">319.29058</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.43931</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">11.258</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.74</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">28/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">321.64797</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.67881</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.175</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.308</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.73</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">27/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">323.41863</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.85871</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">12.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.371</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.71</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">26/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">324.77849</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.99687</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">11.685</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.7</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">25/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">326.91451</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.21388</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">11.105</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.68</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">24/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">329.25321</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.45149</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.915</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.65</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">23/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">330.9932</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.62827</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.836</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.64</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">22/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">332.97178</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.82929</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">14.35</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.64</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">21/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">335.06712</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.04217</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.84</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.64</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">20/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">337.01068</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.23963</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.007</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.62</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">19/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">338.05994</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.34624</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.7</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">41.92</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.62</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">18/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">337.59313</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.29881</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.712</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.61</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">17/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">339.468</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.48929</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">11.244</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.61</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">16/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">341.79333</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.72554</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">12.117</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.62</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">15/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">344.08954</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.95883</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.175</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.081</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.62</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">14/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">345.7322</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.12572</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">13.517</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.63</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">13/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">347.87894</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.34383</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.234</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.63</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">12/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">349.57052</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.51569</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.05</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">13.092</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.63</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">11/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">351.73945</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.73605</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">9.752</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.63</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">354.33102</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.99935</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">14.892</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.62</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">09/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">356.38902</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.20843</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">14.503</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.61</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">08/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">358.39741</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.41248</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.285</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.61</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">07/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">359.82431</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.55745</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">14.266</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.62</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">06/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">361.73673</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.75175</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">14.638</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.62</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">05/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">363.39625</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.92036</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.204</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.61</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">04/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">365.09169</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.09261</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">14.773</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.61</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">03/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">366.96197</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.28263</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.083</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.61</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">02/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">368.61718</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.45079</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">11.318</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.61</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">01/09/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">370.66579</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.65893</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.471</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.42</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">31/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">163.4203</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.07514</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.259</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.01</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">30/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">164.86412</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.26134</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.298</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.01</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">29/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">166.21403</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.43543</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.65</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.242</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.01</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">28/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">167.15586</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.55689</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.235</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.01</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">27/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">168.36893</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.71333</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.028</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.01</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">26/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">169.82199</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.90072</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.114</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.01</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">25/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">171.23155</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.0825</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.513</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.01</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">24/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">172.12259</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.19741</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.061</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">23/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">173.44851</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.3684</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.451</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">22/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">174.37833</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.48832</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.144</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">21/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">175.49544</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.63238</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.897</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.13</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">20/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">176.92955</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.81733</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.854</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.13</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">19/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">178.18989</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.97987</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.169</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.74</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">18/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">179.07756</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.09434</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.771</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.5</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">17/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">180.23051</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.24303</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.955</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">16/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">181.41121</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.3953</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">11.385</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">15/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">182.95564</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.59447</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.546</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">14/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">183.63003</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.68144</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.53</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.73</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">13/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">184.92599</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.84857</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.808</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">12/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">186.21574</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.0149</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.016</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">11/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">187.31146</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.15621</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.088</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">188.36612</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.29222</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.615</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">09/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">189.41855</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.42794</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.524</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">08/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">189.81698</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.47933</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.876</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.11</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">07/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">190.66123</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.58821</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.734</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.04</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">06/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">191.8062</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.73586</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.177</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.62</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">05/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">192.56089</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.83319</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.736</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.62</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">04/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">192.98821</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.8883</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.66</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.56</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">03/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">193.61752</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.96946</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.332</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.11</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">02/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">194.46604</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.07888</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.86</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.11</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">01/08/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">194.74114</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.11436</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.148</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.11</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">31/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">195.35824</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.19394</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">26.198</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.11</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">30/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">195.70188</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.23826</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.495</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.11</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">29/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">196.30107</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.31553</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.863</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.11</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">28/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">196.30961</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.31664</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.421</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.11</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">27/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">196.71796</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.3693</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.008</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">26/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">197.22553</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.43476</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.341</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">25/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">196.97879</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.40293</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.592</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">24/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">196.84543</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.38574</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.285</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.13</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">23/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">196.33592</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.32003</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.175</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.14</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">22/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">195.44276</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.20484</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.475</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">57.311</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">21/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">192.90101</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.87705</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.825</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">80.63</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">20/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">188.32086</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.28638</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">43.075</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">106.187</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">19/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">181.21479</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.36997</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">8.025</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">27.637</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.11</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">18/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">181.2507</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.3746</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.525</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.916</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">17/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">180.75551</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.31074</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.125</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.939</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">16/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">180.60796</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.29171</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.496</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">15/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">181.42929</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.39763</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.96</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">14/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">182.46798</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.53158</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.462</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">13/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">182.65206</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.55532</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.275</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">12/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">182.59339</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.54775</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">46.627</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.16</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">11/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">180.69868</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.30341</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.725</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">53.456</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">178.31247</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.99567</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.425</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.569</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">09/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">178.15684</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.9756</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">8.255</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">27.093</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">08/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">178.29887</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.99392</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.109</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">07/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">179.20284</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.1105</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.951</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">06/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">180.09184</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.22515</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.528</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">05/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">180.59413</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.28992</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.956</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">04/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">180.74075</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.30883</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.913</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">03/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">181.51698</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.40894</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.535</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">02/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">182.35869</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.51749</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.958</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">01/07/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">183.2478</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.63215</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.104</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">30/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">183.68951</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.68911</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.279</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">29/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">183.93566</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.72086</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">26.653</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">28/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">184.30827</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.76891</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.434</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">27/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">184.88723</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.84357</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.884</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">26/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">184.84289</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.83786</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.3</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.557</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">25/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">185.13626</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.87569</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">24/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">185.18852</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.88243</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.435</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">23/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">185.72338</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.95141</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.337</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.29</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">22/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">186.18269</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.01064</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.653</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.11</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">21/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">186.62152</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.06723</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">26.834</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.11</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">20/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">186.60425</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.06501</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.215</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.11</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">19/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">186.60914</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.06564</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.044</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.11</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">18/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">186.58907</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.06305</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.844</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">17/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">186.36622</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.03431</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.365</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.11</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">16/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">186.1632</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.00813</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.08</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.11</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">15/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">185.80139</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.96147</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.817</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">14/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">185.37143</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.90602</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">39.412</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">13/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">184.25779</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.7624</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">12.425</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">55.488</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">12/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">181.86057</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.45325</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.313</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">11/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">181.44404</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.39953</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.88</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">181.50185</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.40699</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.456</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.13</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">09/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">181.30086</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.38107</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.458</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.13</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">08/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">180.55708</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.28515</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">41.563</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.13</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">07/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">179.57438</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.15841</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">47.694</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.13</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">06/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">177.95477</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.94954</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.95</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">60.762</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.13</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">05/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">175.24239</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.59975</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.55</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">91.063</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.13</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">04/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">169.90757</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.91175</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">97.158</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.13</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">03/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">163.95812</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.1445</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">10.95</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">57.653</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.13</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">02/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">161.42461</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.81777</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">58.224</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">01/06/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">159.06038</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.51287</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">14.775</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">67.795</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">31/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">155.73508</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.08403</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">10.15</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">43.876</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">30/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">154.36174</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.90692</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.864</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">29/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">154.29907</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.89884</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.176</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.12</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">28/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">154.16837</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.88198</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">52.561</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.11</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">27/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">152.3257</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.64435</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.725</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">71.396</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.11</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">26/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">148.68277</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.17454</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.075</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">70.271</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.35</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">25/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">145.26279</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.7335</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.7</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">41.306</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.86</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">24/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">144.46069</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.63005</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.825</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.298</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">23/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">144.2813</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.60692</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.378</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">22/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">144.01048</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.57199</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">8.775</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">38.228</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">21/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">143.47132</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.50246</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.756</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.83</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">20/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">144.15466</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.59059</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.246</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">19/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">144.82712</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.67731</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.235</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">18/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">144.67648</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.65788</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.382</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">17/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">144.55637</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.64239</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.826</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">16/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">144.13963</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.58865</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">13.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">45.672</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">15/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">142.78594</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.41407</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.45</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">26.089</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">14/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">143.30708</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.48128</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.593</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">13/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">144.46046</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.63002</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.846</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">12/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">145.49763</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.76378</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.447</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">11/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">146.10585</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.84222</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">27.035</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">146.54162</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.89842</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.629</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">09/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">146.02806</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.83219</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">6.05</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">41.519</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">08/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">145.09782</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.71222</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.45</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">54.756</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.45</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">07/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">143.09884</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.45443</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">9.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">41.167</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">06/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">142.33274</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.35563</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.178</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">05/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">142.44713</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.37038</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">26.389</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.19</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">04/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">143.08109</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.45214</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.705</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.29</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">03/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">144.24412</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.60212</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.29</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">02/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">145.17108</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.72167</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.59</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.29</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">01/05/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">146.19546</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.85378</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.105</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">30/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">147.00376</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.95802</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.492</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">29/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">147.80094</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.06082</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.148</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">28/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">148.60768</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.16486</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.212</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">27/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">148.89262</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.20161</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.281</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">26/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">148.80824</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.19073</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.55</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.479</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">25/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">149.66041</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.30062</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.075</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.187</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">24/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">149.63018</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.29673</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.406</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">23/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">149.81679</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.32079</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">39.214</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">22/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">149.21041</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">19.24259</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">9.275</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">53.904</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">21/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">147.10068</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.97051</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">61.291</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">20/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">144.40532</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.62291</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">39.375</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">92.625</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">19/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">139.03752</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.93067</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.325</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.496</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">18/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">138.8653</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.90846</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.584</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">17/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">138.66023</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.88201</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">13.725</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">64.679</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">16/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">135.92787</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.52964</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.725</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">41.222</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">15/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">135.09737</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.42253</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.775</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.95</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">14/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">134.92969</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.40091</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">26.976</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">13/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">135.38464</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.45958</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.05</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.86</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">12/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">136.05538</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.54608</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.014</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">11/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">136.53729</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.60823</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.826</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">136.36845</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.58646</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.151</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">09/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">136.07226</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.54826</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.484</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">08/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">136.36675</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.58624</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.163</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">07/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">135.97092</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.53519</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">48.137</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">06/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">134.37936</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.32994</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.425</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.155</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">05/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">134.14334</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.2995</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">14.175</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">49.23</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">04/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">132.41108</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.0761</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.571</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">03/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">133.22173</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.18065</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.694</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">02/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">133.80879</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.25636</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.76</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">01/04/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">134.06014</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.28877</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.268</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">31/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">133.95924</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.27576</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">8.525</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.501</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">30/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">133.74638</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.24831</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.85</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.326</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">29/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">133.48546</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.21466</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.783</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">28/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">133.86339</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.2634</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.633</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">27/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">133.95306</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.27496</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.175</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">67.624</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">26/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">130.87811</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.87841</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">26.715</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">25/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">131.30166</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.93303</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.09</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">24/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">132.00566</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.02382</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">23.915</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">23/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">132.56063</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.09539</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.337</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">22/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">132.76202</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.12136</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.953</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">21/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">132.27259</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.05824</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.625</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">43.753</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">20/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">131.05356</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.90103</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">14.075</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">55.874</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">19/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">128.95909</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.63092</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.669</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">18/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">129.52422</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.70381</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.386</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">17/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">129.6436</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.7192</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.025</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">41.794</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">16/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">128.79829</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.61019</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.775</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">43.79</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">15/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">127.77184</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.47781</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">11.375</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">43.92</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">14/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">126.37125</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.29719</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.683</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">13/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">126.25413</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.28208</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.772</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">12/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">126.18255</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.27285</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.614</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.3</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">11/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">126.16611</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.27073</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.925</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.24</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">125.89527</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.23581</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.467</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">09/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">125.57367</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.19433</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.9</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">42.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">08/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">124.70845</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.08275</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.85</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">50.056</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">07/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">122.90948</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.85075</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">60.887</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">06/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">120.24613</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.50728</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.05</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">45.522</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">05/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">119.06915</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.35549</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.3</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">46.959</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">04/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">117.74547</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.18479</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.975</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">39.434</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">03/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">117.23975</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.11957</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">38.808</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">02/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">116.78106</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.06041</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">54.489</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">01/03/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">114.93964</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">14.82294</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">55.542</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">29/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">112.85657</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">14.5543</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">78.022</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.01</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">28/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">108.80621</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">14.03195</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.425</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">113.102</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.96</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">27/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">101.90603</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">13.14209</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.85</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">125.261</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.6</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">26/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">93.8277</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">12.10028</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">11.475</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">139.838</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.74</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">25/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">84.37194</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">10.88084</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.975</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">145.904</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.17</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">24/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">74.2507</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">9.57558</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.875</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">183.666</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.16</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">23/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">60.73432</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">7.83247</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.625</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">136.508</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.15</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">22/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">51.22496</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">6.60611</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">42.525</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">97.711</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.15</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">21/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">45.37676</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.85191</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.55</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">26.65</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.15</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">20/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">45.93079</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.92336</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">11.125</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.566</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.15</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">19/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">45.96622</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.92793</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">27.989</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.15</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">18/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">46.47482</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.99352</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">40.472</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.15</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">17/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">45.97083</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.92853</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.425</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">48.996</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.15</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">16/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">44.68905</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.76322</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.775</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">66.411</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.22</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">15/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">41.56837</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.36077</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.625</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">48.806</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.44</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">14/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">40.18733</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.18267</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.05</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.973</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.44</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">13/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">40.27702</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.19424</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.325</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.17</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.4</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">12/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">41.28937</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.32479</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.085</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.24</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">11/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">41.95612</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.41078</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">24.317</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.24</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">42.64134</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.49915</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.107</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.13</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">09/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">43.27127</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.58038</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">25.353</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.94</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">08/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">43.80258</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.6489</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.05</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">50.461</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.94</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">07/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">42.15699</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.43668</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.9</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">69.883</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.98</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">06/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">38.79861</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5.00358</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">27.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">61.113</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.24</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">05/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.29138</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.68024</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">26.856</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.24</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">04/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.821</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.74854</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.575</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.815</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.23</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">03/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.25144</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.80405</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">13.275</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.786</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.23</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">02/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.10353</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.78497</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.786</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.23</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">01/02/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.04684</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.77766</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">13.3</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">38.687</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.23</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">31/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.45221</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.70098</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.57</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.23</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">30/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.23551</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.67303</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.399</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.23</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">29/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.17286</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.66495</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.725</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">46.358</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.23</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">28/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.90539</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.5015</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">10.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">51.294</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.31</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">27/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">33.20121</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.28172</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.175</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">50.956</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.75</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">26/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.61664</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.07737</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">6.85</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.607</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.75</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">25/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.35418</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.17249</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.125</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.255</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.75</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">24/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.54529</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.19713</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.15</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.244</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.75</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">23/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.23818</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.15753</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.475</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">44.06</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.74</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">22/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.16478</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.0191</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">8.825</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">15.562</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.74</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">21/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.53833</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.19623</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">12.189</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.74</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">20/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.33892</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.42844</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">17.516</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.74</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">19/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.70982</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.60524</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.545</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.75</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">18/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">36.76593</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.74144</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.072</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.75</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">17/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.58443</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.84699</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.654</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.73</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">16/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">37.26869</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.80627</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">13.975</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">57.373</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.75</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">15/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.16112</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.53448</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">38.383</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.75</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">14/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.67053</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.47121</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.44</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.75</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">13/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">34.48078</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.44674</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.35</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">50.835</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.75</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">12/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">32.88414</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.24083</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">40.755</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.74</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">11/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">31.93388</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.11828</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">45.13</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.74</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">10/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.72283</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.9621</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">6.75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">63.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.74</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">09/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">27.85009</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.59163</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">20.675</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">46.73</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1.84</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">08/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">26.52312</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.4205</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">6.625</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.833</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.24</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">07/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">26.0715</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.36225</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4.9</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16.996</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.71</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">06/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">27.67972</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.56965</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">22.293</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.06</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">05/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.65547</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.69549</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.726</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.06</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">04/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.71255</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.70285</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">0.25</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">21.847</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.06</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">03/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">29.50439</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.80497</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.7</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">38.65</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.06</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">02/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">28.5475</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.68156</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.8</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">35.159</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.06</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">01/01/2004</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">27.59006</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3.55809</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">30.312</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">2.06</Data></Cell>
+			</Row>
+		</Table>
+	</Worksheet>
+</Workbook>

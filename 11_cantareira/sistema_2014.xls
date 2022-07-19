@@ -1,0 +1,3030 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11865</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="xls-style-1">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CACACA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CACACA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CACACA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CACACA"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Color="#808080"/>
+   <Interior ss:Color="#F4F4F4" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63" ss:Name="xls-style-2">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CACACA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CACACA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CACACA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CACACA"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Color="#000000"/>
+   <Interior ss:Color="#EDEDED" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s64" ss:Name="xls-style-3">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CACACA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CACACA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CACACA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CACACA"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Color="#000000"/>
+   <Interior ss:Color="#EDEDED" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="366" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="80.25"/>
+   <Column ss:Width="150" ss:Span="4"/>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Data</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Volume (hm³)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Volume (%)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Chuva (mm)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Vazão natural (m³/s)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Vazão a jusante (m³/s)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">31/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-216.28766999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-22.023610000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">19.309999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">30/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-216.21958000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-22.016670000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20.9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">21.315999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.08</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">29/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-216.17231000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-22.011859999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.1000000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.794</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.47</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">28/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-215.71963</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-21.965769999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.25</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">14.006</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.77</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">27/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-215.20913999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-21.913779999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">19.594999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.77</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">26/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-215.20340999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-21.9132</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">39.104999999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.77</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">25/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-217.23827</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-22.1204</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.0000000000000001E-3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">39.503999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.77</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">24/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-218.52943999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-22.25188</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">52.4</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">54.545000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.1000000000000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">23/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-221.60512</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-22.565059999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">27.75</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">22.623000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.0499999999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">22/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-221.80314000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-22.58522</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">18.433</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">21/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-221.54606000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-22.55904</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.55</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20.405000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-221.54127</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-22.55856</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">14.85</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20.129000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">19/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-221.34134</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-22.5382</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.1000000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.7859999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">18/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-220.12332000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-22.414169999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.7729999999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">17/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-218.99995999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-22.299790000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.0809999999999995</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">16/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-217.9143</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-22.189240000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.3819999999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">15/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-216.72889000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-22.068529999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.5</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.97</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">14/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-215.63668000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-21.957319999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.1000000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.474</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.88</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">13/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-214.87976</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-21.880240000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.943</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.02</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">12/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-214.17864</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-21.80885</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.292</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">11/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-213.25624999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-21.714929999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">18.100000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">22.850999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0199999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-213.26552000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-21.715869999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.4589999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0199999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">09/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-211.85112000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-21.571850000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.109</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0199999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">08/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-210.38925</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-21.422999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.2850000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0199999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">07/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-209.0675</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-21.288409999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.0120000000000005</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.68</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">06/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-207.77659</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-21.156960000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.295999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.82</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">05/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-206.8972</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-21.067419999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.885</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.02</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">04/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-206.02781999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-20.97889</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.9640000000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.02</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-204.73560000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-20.84731</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.6609999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.02</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">02/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-203.60068999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-20.731750000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.02</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.02</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">01/12/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-202.33064999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-20.602429999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.35</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.2739999999999991</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.02</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">30/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-201.23054999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-20.490410000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.5719999999999992</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.02</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">29/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-200.08981</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-20.37425</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.5359999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.02</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">28/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-198.98137</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-20.261379999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.7810000000000006</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.02</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">27/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-198.00640999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-20.162109999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.484</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.23</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">26/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-197.08548999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-20.06833</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">22.3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.129000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">25/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-196.60400000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-20.019310000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.4339999999999993</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">24/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-195.51499999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-19.90842</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.7</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.2960000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">23/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-194.35258999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-19.790050000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.75</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.920999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">22/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-193.63118</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-19.7166</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.6</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.9850000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">21/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-192.11762999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-19.562480000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.6559999999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-190.53261000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-19.40108</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.6470000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">19/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-188.91370000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-19.236239999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.1870000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">18/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-187.42478</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-19.084630000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.3879999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">17/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-185.92023</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-18.931429999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.7229999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">16/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-184.50649999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-18.787469999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.2359999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">15/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-183.11680999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-18.645969999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.0340000000000007</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">14/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-181.86931000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-18.518940000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">24.4</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.929</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">13/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-181.13802000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-18.444469999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.9619999999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">12/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-179.62101000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-18.29</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.2409999999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">11/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-178.11566999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-18.13672</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.6210000000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-176.58960999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-17.98133</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.2460000000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">09/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-175.44659999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-17.864940000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.832000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">08/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-174.58112</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-17.776820000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.8</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.951000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.55</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">07/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-173.78655000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-17.695910000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.593</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">06/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-172.67941999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-17.583169999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.55</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.2110000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">05/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-171.44094999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-17.457070000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.6</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.6539999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">04/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-170.16140999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-17.32677</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.7</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">24.228999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-170.23598999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-17.33437</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.218999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">02/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-169.05938</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-17.214559999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">19.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.6170000000000009</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">01/11/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-167.85534999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-17.09196</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.202</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">31/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-165.92102</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-16.895</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.7770000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">30/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-164.16354999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-16.71604</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.9460000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">29/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-162.52349000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-16.549040000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.4029999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">28/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-161.11502999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-16.405619999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5169999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">27/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-159.43344999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-16.234400000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.95</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.04</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">26/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-157.99404000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-16.08783</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.6059999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">25/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-156.04039</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-15.88889</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0259999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">24/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-154.04263</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-15.68547</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0650000000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">23/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-152.46188000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-15.524509999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.794</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">22/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-150.79069000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-15.354340000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.4790000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">21/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-149.21002999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-15.193390000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.55000000000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.6609999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-147.90602000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-15.06061</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">23.9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.6760000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">19/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-146.77285000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-14.945220000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5390000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">18/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-144.95910000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-14.760540000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.7480000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">17/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-143.14340999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-14.57565</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.324999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">16/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-141.9854</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-14.457739999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.1529999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">15/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-140.28263000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-14.28435</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2130000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">14/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-138.46024</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-14.098789999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.4050000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">13/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-136.82613000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-13.93239</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.9009999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">12/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-135.14500000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-13.76121</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.1760000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">11/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-133.85065</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-13.62941</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.593</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-132.38703000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-13.48038</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.8290000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">09/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-130.62706</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-13.301170000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5270000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">08/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-128.88265000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-13.12354</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.4870000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">07/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-127.20511999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-12.952730000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2480000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">06/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-125.26638</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-12.755319999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.4769999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">05/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-123.37976</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-12.56321</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.234</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.516</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">04/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-121.31685</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-12.353149999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.8170000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-119.52704</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-12.1709</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.665</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">02/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-117.88893</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-12.004099999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.4279999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">01/10/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-116.40338</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-11.85284</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.2170000000000005</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.38</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">30/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-115.04640999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-11.71466</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.8369999999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">29/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-113.82624</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-11.59042</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.1359999999999992</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">28/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-112.73913</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-11.47972</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.051</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.41</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">27/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-111.71438000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-11.37538</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">22.7</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20.666</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.85</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">26/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-111.33728000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-11.336980000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.8490000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">25/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-109.65271</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-11.16545</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.367</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">24/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-107.79899</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-10.97669</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.6280000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">23/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-106.03019</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-10.796580000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.69</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">22/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-104.32957</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-10.62341</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.1069999999999993</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">21/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-103.02786</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-10.490869999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.75</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.058999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.68</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-101.82975999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-10.368869999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.2000000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.7169999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">19/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-100.16937</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-10.1998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.7939999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.3499999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">18/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-98.356120000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-10.01516</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.1390000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">17/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-96.684430000000006</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-9.8449399999999994</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">16/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-95.097830000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-9.6833899999999993</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.2960000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">15/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-93.392150000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-9.5097100000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.4770000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">14/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-91.891319999999993</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-9.3568800000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.9219999999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">13/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-90.265690000000006</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-9.1913499999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.2249999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">12/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-88.734139999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-9.0353999999999992</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.6590000000000007</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.35</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">11/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-87.279219999999995</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-8.8872499999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.2210000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-85.926479999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-8.7495100000000008</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.7899999999999991</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">09/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-84.638009999999994</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-8.6183099999999992</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.2270000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">08/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-83.303910000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-8.4824599999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.6619999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">07/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-82.018720000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-8.3515999999999995</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.3179999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">06/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-80.79092</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-8.2265800000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.129</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">05/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-79.733909999999995</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-8.1189499999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.956</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">04/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-78.606210000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-8.0041200000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.22500000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.381</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-77.856809999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-7.92781</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">22.15</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">18.521000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">02/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-77.296220000000005</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-7.87073</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.057</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.29</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">01/09/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-76.139880000000005</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-7.75298</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.7</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.9189999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">31/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-74.785030000000006</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-7.6150200000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.36</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">30/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-73.174599999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-7.4510399999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.9850000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">29/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-71.704070000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-7.3013000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.6180000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">28/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-70.367059999999995</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-7.1651600000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.17499999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.3670000000000009</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">27/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-68.90746</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-7.01654</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.488</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">26/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-67.702129999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-6.8938100000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.1859999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.73</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">25/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-65.956500000000005</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-6.7160500000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.415</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">24/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-64.542050000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-6.5720299999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.6189999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">23/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-63.099440000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-6.4251300000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.649</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">22/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-61.554679999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-6.2678399999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.2110000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">21/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-60.101909999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-6.11991</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.0620000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-58.604759999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-5.96746</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.8670000000000009</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">19/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-57.298830000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-5.8344800000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.0129999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">18/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-56.000700000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-5.7023000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.75</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.6809999999999992</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">17/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-54.883580000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-5.5885499999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.75</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">16/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-54.203629999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-5.5193099999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.8620000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">15/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-52.825679999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-5.3789999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.22500000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.7989999999999995</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">14/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-51.731610000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-5.2675999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.2989999999999995</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">13/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-50.482590000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-5.1404199999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.7160000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">12/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-48.913029999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-4.9805999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">11/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-47.427810000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-4.8293600000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.6890000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-45.886560000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-4.6724199999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.0609999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">09/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-44.29345</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-4.5102000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.351</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">08/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-42.727519999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-4.3507499999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.6070000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">07/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-40.99962</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-4.1748099999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.5540000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">06/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-39.365720000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-4.0084400000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.2609999999999992</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">05/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-37.959600000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-3.8652600000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.093</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.39</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">04/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-36.479230000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-3.7145199999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.3710000000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-35.229790000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-3.5872899999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.2319999999999993</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">02/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-33.812040000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-3.44293</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.148999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">01/08/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-32.430349999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-3.3022399999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.8070000000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">31/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-30.97691</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-3.1542400000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.9949999999999992</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">30/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-29.645600000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-3.0186799999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.497999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">29/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-28.46724</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-2.8986900000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.0820000000000007</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">28/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-27.0535</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-2.75474</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.43</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">27/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-25.913910000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-2.6387</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.15</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.4939999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">26/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-24.383420000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-2.48285</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.9560000000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.31</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">25/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-23.099879999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-2.35216</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.3000000000000007</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.5129999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">24/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-21.419879999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-2.1810900000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.57</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">23/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-19.533439999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-1.9890000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">22/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-17.783449999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-1.81081</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.8090000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.89</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">21/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-15.79715</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-1.6085499999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.82</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-14.266450000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-1.45269</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.0030000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">19/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-12.36669</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-1.2592399999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.702</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">18/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-10.802020000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-1.09992</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.2380000000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">17/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-9.0676699999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-0.92332000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.0010000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">16/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-7.3563999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-0.74907000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.68</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">15/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-5.5042200000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-0.56047000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.8610000000000007</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">14/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-4.1711299999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-0.42473</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.4409999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">13/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-2.5662199999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-0.26130999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.3420000000000005</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">12/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-1.2321299999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-0.12545999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.616</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">11/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-4.7550000000000002E-2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-4.8399999999999997E-3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.45</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.615</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.11212</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.11323999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.375</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.1229999999999993</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">09/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.44068</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.24851999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">14.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.1920000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.31</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">08/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.9407899999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.40127000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.7</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.0910000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">07/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.9564300000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.60651999999999995</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2370000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">06/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.8289600000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.79718999999999995</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.399</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">05/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.8489900000000006</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.00288</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.9219999999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">04/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.82959</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.20455</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.0279999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.675610000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.39253</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.4169999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">02/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.65649</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.59423</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.18</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">01/07/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">17.616520000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.7938099999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.0350000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">30/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">19.630859999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.99892</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.3659999999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">29/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">21.32883</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.1718199999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.1680000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">28/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">23.09564</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.3517299999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.8010000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">27/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25.047979999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.5505200000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.7469999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">26/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">27.03154</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.7524999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.7889999999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">25/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">28.911239999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.9439000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.8239999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">24/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">30.73967</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.13008</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.4530000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">23/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">32.696869999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.32938</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.048</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">22/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">34.448860000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5077699999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.8680000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.84</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">21/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">36.29092</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.6953399999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.1289999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">37.71772</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.84063</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.2249999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">19/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">39.082259999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.9795699999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.9600000000000009</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">18/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">40.55536</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.1295700000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.692</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">17/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">41.866540000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2630800000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.945</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">16/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">43.281529999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.4071600000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.555999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">15/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">44.315980000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5125000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.593999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">14/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">45.40343</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.6232300000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.786</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">13/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">46.583539999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.7433899999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.3539999999999992</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">12/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">48.14987</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.9028900000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.62</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">11/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">49.387540000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.0289099999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.952999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">50.594119999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.15177</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.337999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">09/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">51.862659999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.2809400000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.1989999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">08/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">53.15654</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.4126899999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.26</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">07/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">54.562370000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.5558399999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.4</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.45</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">06/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">55.546259999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.6560300000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.074999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">05/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">57.086469999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.8128599999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.516999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">04/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">58.230919999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.9293899999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">17.132999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">58.94999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.0026099999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.047000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">02/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">60.222230000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.1321599999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.65</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.684000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">01/06/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">60.954050000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.2066800000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">14.243</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">31/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">62.004719999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.3136599999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.467000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">30/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">63.181469999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.4334899999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.503</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">29/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">64.455240000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.5631899999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.446999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">28/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">65.561930000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.6758800000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.936</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">27/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">66.736639999999994</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.79549</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.75</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.742000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">26/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">67.776709999999994</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.9013999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.8</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.135</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">25/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">68.721509999999995</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.9976000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">14.911</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">24/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">69.472089999999994</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.0740299999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.95</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.888000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">23/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">70.256500000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.1539099999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.4</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.39</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">22/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">71.080330000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.2377900000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.0839999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">21/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">72.996719999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.4329299999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.056</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">74.70326</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.6067</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.593</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">19/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">75.876760000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.7261899999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.105</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">18/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">76.622470000000007</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.8021200000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.148999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">17/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">77.81859</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.9239199999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.5050000000000008</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">16/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">79.381780000000006</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.0830900000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.916</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">15/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">80.652900000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.2125199999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.1909999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">14/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">82.470879999999994</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.3976400000000009</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.524</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">13/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">84.203400000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.5740599999999993</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.7149999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">12/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">86.332220000000007</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.7908200000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.0090000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">11/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">87.50085</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.9098199999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.35</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.75</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">89.222480000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.0851299999999995</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.6069999999999993</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">09/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">90.725040000000007</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.23813</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.2880000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">08/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">92.464420000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.4152400000000007</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.0069999999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">07/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">94.311819999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.6033500000000007</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.243</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">06/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">95.90889</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.7659699999999994</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.0579999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">05/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">97.780259999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.9565300000000008</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.5140000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">04/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">99.375079999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.118919999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.5139999999999993</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">100.81071</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.2651</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.771000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">02/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">102.19964</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.40653</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.5790000000000006</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">01/05/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">103.54926</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.54396</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.6509999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">30/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">105.03901</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.695650000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.2219999999999995</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">29/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">106.67004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.86173</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.284000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">28/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">108.12708000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.0101</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.8490000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">27/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">109.46245</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.14607</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.548</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">26/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">110.71335999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.27345</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.8780000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">25/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">112.34735999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.439830000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.2780000000000005</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">24/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">113.87067</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.594939999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.55</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.904999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">23/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">115.05396</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.71543</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.73</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">22/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">116.44634000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.85721</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.04</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">21/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">117.74782999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.989739999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.082000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">118.46521</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.06278</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.35</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.030999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">19/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">119.21174000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.1388</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">22.695</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">18/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">119.54531</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.17276</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20.87</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.67</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">17/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">120.19804999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.239229999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">23.824999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.95</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">16/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">120.46207</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.266109999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">27.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">58.293999999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.2200000000000002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">15/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">117.53883</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.968450000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.95</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.6740000000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">14/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">119.18472</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.136049999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">24.231000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.71</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">13/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">119.26799</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.14453</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">34.299999999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">43.710999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">12/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">117.96406</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.011749999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.45</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.0030000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">11/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">119.8929</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.208159999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.698</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">121.35637</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.35718</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.805</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">09/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">122.88234</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.512560000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.1489999999999991</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">08/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">124.63589</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.69112</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.673</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">07/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">126.20684</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.85108</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.379</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">06/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">127.34645999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.96712</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20.731000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">05/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">128.14888999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.048830000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.576000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">04/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">129.43287000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.17957</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.959</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">130.41391999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.27947</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.77500000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">23.466000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">02/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">130.85897</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.324780000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.25</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">23.308</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">01/04/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">131.34025</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.37379</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.4499999999999993</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">22.222999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">31/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">131.95623000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.43651</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.65</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">21.388999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">30/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">132.44614999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.4864</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.747</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">29/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">133.90594999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.63504</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.042</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">28/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">135.44451000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.79171</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.324</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">27/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">137.1199</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.96231</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.1389999999999993</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">26/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">138.85616999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">14.139099999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.734999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">25/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">140.43378000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">14.29974</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.766999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">24/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">141.96167</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">14.45532</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.416</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">23/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">142.89179999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">14.55003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">21.509</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">22/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">143.51633000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">14.613630000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.899999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">44.415999999999997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">21/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">142.25225</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">14.484909999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.85</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">17.190000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">143.32451</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">14.59409</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.181000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">19/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">144.61154999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">14.725149999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.941000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">18/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">146.19112000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">14.88599</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">17.55</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">18.597999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">17/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">147.37</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.006030000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.15</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.9250000000000007</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">16/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">149.04900000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.17699</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.3499999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.368</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">15/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">150.58964</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.333869999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.608000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">14/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">151.92627999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.46997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.6999999999999993</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20.074000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">13/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">152.84582</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.563610000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.3499999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.054</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">12/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">154.11455000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.6928</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.55</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">18.721</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">11/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">155.16202000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.79945</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.148999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">156.76325</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.9625</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.991</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">09/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">158.19352000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.108139999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.15</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">44.030999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">08/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">156.80857</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.96712</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">36.15</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">46.585000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">07/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">155.21545</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.8049</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.15</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.000999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">06/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">156.77741</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.963939999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.7</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.138</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.78</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">05/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">158.05538999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.094069999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.35</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.726000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">04/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">159.20657</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.211290000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.339</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">160.63896</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.357150000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.087999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">02/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">161.74163999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.469429999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.853000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">01/03/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">162.93458000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.590900000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">39.15</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">54.325000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">28/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">160.95633000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.38946</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.651</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">27/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">162.77408</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.574560000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.8</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.597</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">26/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">164.51012</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.751329999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.5499999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.851000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">25/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">166.12468999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.91573</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.789</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">24/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">167.98263</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">17.10492</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.9210000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">23/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">170.42594</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">17.35371</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.7</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.585000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">22/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">172.10339999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">17.524519999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.678000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">21/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">173.74691000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">17.691870000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.383</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">176.22868</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">17.944579999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.1619999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">19/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">178.53355999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">18.179269999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.3609999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">18/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">180.80016000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">18.410070000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25.388000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">17/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">181.59293</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">18.4908</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">31.818000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">16/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">181.46729999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">18.478000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.959</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">15/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">182.71779000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">18.605340000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">18.95</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">28.128</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">14/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">183.2501</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">18.65954</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.6</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.823</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">13/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">184.82524000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">18.819929999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.2210000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">12/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">187.59318999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">19.101780000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.3390000000000004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">11/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">190.18627000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">19.365819999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.0019999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">192.65262999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">19.616959999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.75</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.8970000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">09/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">194.76973000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">19.832529999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.85</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.7619999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">08/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">197.14035000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20.073920000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.6179999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">07/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">199.92088000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20.357050000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.8159999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">06/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">202.55598000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20.62537</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5019999999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">05/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">205.35137</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20.91001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.7389999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">04/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">208.04101</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">21.183890000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.2110000000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">210.59367</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">21.443809999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.218</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">02/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">213.06896</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">21.69586</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.1780000000000008</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">01/02/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">215.30492000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">21.923539999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.4279999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">31/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">217.81406999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">22.179030000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.3330000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">30/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">220.35634999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">22.437899999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.192</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">29/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">222.48715999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">22.654869999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.45</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.8949999999999996</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">28/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">224.73303000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">22.883559999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">14.77</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.63</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">27/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">226.57919000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">23.071549999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.128</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">26/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">228.33374000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">23.2502</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.930999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">25/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">230.19135</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">23.439360000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.85</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.9410000000000007</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">24/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">232.40342000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">23.6646</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">3.55</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.449000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">23/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">234.07748000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">23.835059999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">12.856</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">22/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">235.79217</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">24.00966</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">17.238</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">21/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">237.37629999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">24.170970000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">7.4580000000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">20/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">239.79119</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">24.41686</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">9.9689999999999994</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">19/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">241.72792000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">24.614070000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">18/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">243.34327999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">24.778559999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">31.975999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">17/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">243.54410999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">24.799009999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.409000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">16/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">245.16189</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">24.963740000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.85</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">17.937999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">15/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">246.54675</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25.104749999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">8.9499999999999993</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">24.765000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">14/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">247.38433000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25.19004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">23.6</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">30.872</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">13/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">247.64507</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25.21659</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.8</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">17.733000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">12/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">248.83623</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25.337879999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.7</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.941000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">11/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">250.85144</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25.54308</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.7</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6.5640000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">253.38208</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25.80076</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.15</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">18.954000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">09/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">254.74552</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25.939599999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.4</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.436</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">08/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">256.80536999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">26.149339999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.88</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">07/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">258.82537000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">26.355029999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">11.379</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">06/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">260.83798999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">26.55997</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">10.615</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">05/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">262.61747000000003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">26.741160000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">13.65</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16.498000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">04/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">264.03748999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">26.885760000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.85</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">28.457000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4.21</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">264.69094000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">26.952290000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15.576000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">02/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">266.44301000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">27.130700000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2.15</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">17.876000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">01/01/2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">267.52143999999998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">27.24051</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1.75</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">22.533999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5.5</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
